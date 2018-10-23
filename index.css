@@ -1,0 +1,21 @@
+.formGroup {
+  position:absolute;
+  left:20%;
+  text-align: right;
+}
+ul {
+  list-style-type: none;
+  display:inline;
+}
+li {
+  display: inline;
+  margin:4%;
+  list-style-type: none;
+  text-decoration: none;
+}
+#loginTitle {
+  position:absolute;
+  left:50%;
+  text-align: center;
+}
+
