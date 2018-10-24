@@ -89,7 +89,7 @@ li {
 }
 .container .info {
   margin: 50px auto;
-  text-align: center;
+  text-align: left;
 }
 .container .info h1 {
   margin: 0 0 15px;
@@ -124,51 +124,24 @@ body {
 [ Table ]*/
 
 
-.limiter {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.container-table100 {
-  width: 50%;
-  min-height: 100vh;
-  background: #3f69b8; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #3f69b8, rgb(67, 106, 150));
-  background: -moz-linear-gradient(right, #3f69b8, rgb(67, 106, 150));
-  background: -o-linear-gradient(right, #3f69b8, rgb(67, 106, 150));
-  background: linear-gradient(to left, #3f69b8, rgb(67, 106, 150));
- 
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: left;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 33px 30px;
-}
-
-.wrap-table100 {
-  width: 100%;
-  text-align: left;
-}
-
 table {
   border-spacing: 1;
   border-collapse: collapse;
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  width: 50%;
-  margin: 0 auto;
-  position: relative;
+  width: 30%; 
+  float:left;
+  padding: 15%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
 }
-table * {
+/* table * {
   position: relative;
-}
+} */
 table td, table th {
   padding-left: 8px;
+  text-align:left;
 }
 table thead tr {
   height: 60px;
@@ -181,10 +154,10 @@ table tbody tr:last-child {
   border: 0;
 }
 table td, table th {
-  text-align: left;
+  text-align: center;
 }
 table td.l, table th.l {
-  text-align: right;
+  text-align: center;
 }
 table td.c, table th.c {
   text-align: center;
@@ -282,16 +255,16 @@ tbody tr:hover {
     top: 0;
   }
   table tbody tr td:nth-child(1):before {
-    content: "Date";
+    content: "User ID";
   }
   table tbody tr td:nth-child(2):before {
-    content: "Order ID";
-  }
-  table tbody tr td:nth-child(3):before {
     content: "Name";
   }
+  table tbody tr td:nth-child(3):before {
+    content: "Email";
+  }
   table tbody tr td:nth-child(4):before {
-    content: "Price";
+    content: "Department";
   }
   table tbody tr td:nth-child(5):before {
     content: "Quantity";
@@ -330,9 +303,17 @@ tbody tr:hover {
 img {
   width:25px;
 }
-.limiter left {
-  text-align:left;
+
+.tableRight {
+  display:inline;
 }
-.limiter right {
-text-align:right;
+.tableLeft {
+  display:inline;
 }
+ #userTable {
+  left: 15%;
+} 
+ #cvTable {
+  position: absolute;
+  left: 32%;
+} 
