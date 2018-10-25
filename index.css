@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 p, h1, h2, h3, h4, h5, li {
   color:white;
@@ -157,8 +157,7 @@ table {
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  width: 30%; 
-  float:left;
+
   padding: 15%;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   
@@ -329,18 +328,14 @@ tbody tr:hover {
 
 img {
   width:25px;
-}
+} 
 
-.tableRight {
-  display:inline;
+.conainer-login100 {
+  padding: 5%;
 }
-.tableLeft {
-  display:inline;
+.row {
+  padding: 5%;
 }
- #userTable {
-  left: 15%;
-} 
- #cvTable {
-  position: absolute;
-  left: 32%;
-} 
+.table{
+  padding:2%;
+}
