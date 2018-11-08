@@ -410,11 +410,44 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+.login100-form-btn-cv {
+  font-family: Raleway-Bold;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
 
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 10px;
+  height: 30px;
+  background-color: #c2c2c2;
+  border-radius: 100px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.login100-form-btn-cv:hover {
+  background-color: #57b846;
+}
+.wrap-login100-upload {
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
 .login100-form-btn:hover {
   background-color: #57b846;
 }
-
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
